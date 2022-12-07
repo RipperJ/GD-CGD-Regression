@@ -1,0 +1,85 @@
+[INFO:                  <module>() ] 
+1. Running Gradient Descent (GD) =====================
+[INFO:          gradient_descent() ] Iter: 0     , cost: 0.601870
+[INFO:          gradient_descent() ] Iter: 10000 , cost: 0.278205
+[INFO:          gradient_descent() ] Iter: 20000 , cost: 0.252154
+[INFO:          gradient_descent() ] Iter: 30000 , cost: 0.241524
+[INFO:          gradient_descent() ] Iter: 40000 , cost: 0.232702
+[INFO:          gradient_descent() ] Iter: 50000 , cost: 0.224912
+[INFO:          gradient_descent() ] Iter: 60000 , cost: 0.218005
+[INFO:          gradient_descent() ] Iter: 70000 , cost: 0.211878
+[INFO:          gradient_descent() ] Iter: 80000 , cost: 0.206438
+[INFO:          gradient_descent() ] Iter: 90000 , cost: 0.201608
+[INFO:          gradient_descent() ] Iter: 100000, cost: 0.197316
+[INFO:          gradient_descent() ] Iter: 110000, cost: 0.193501
+[INFO:          gradient_descent() ] Iter: 120000, cost: 0.190108
+[INFO:          gradient_descent() ] Iter: 130000, cost: 0.187089
+[INFO:          gradient_descent() ] Iter: 140000, cost: 0.184402
+[INFO:          gradient_descent() ] Iter: 150000, cost: 0.182010
+[INFO:          gradient_descent() ] Iter: 160000, cost: 0.179880
+[INFO:          gradient_descent() ] Iter: 170000, cost: 0.177981
+[INFO:          gradient_descent() ] Iter: 180000, cost: 0.176289
+[INFO:          gradient_descent() ] Iter: 190000, cost: 0.174781
+[INFO:          gradient_descent() ] Iter: 200000, cost: 0.173435
+[INFO:          gradient_descent() ] Iter: 210000, cost: 0.172235
+[INFO:          gradient_descent() ] Iter: 220000, cost: 0.171164
+[INFO:          gradient_descent() ] Iter: 230000, cost: 0.170208
+[INFO:          gradient_descent() ] Iter: 240000, cost: 0.169355
+[INFO:          gradient_descent() ] Iter: 250000, cost: 0.168593
+[INFO:          gradient_descent() ] Iter: 260000, cost: 0.167912
+[INFO:          gradient_descent() ] Iter: 270000, cost: 0.167304
+[INFO:          gradient_descent() ] Iter: 280000, cost: 0.166760
+[INFO:          gradient_descent() ] Iter: 290000, cost: 0.166274
+[INFO:          gradient_descent() ] Iter: 300000, cost: 0.165840
+[INFO:          gradient_descent() ] Iter: 310000, cost: 0.165452
+[INFO:          gradient_descent() ] Iter: 320000, cost: 0.165105
+[INFO:          gradient_descent() ] Iter: 330000, cost: 0.164794
+[INFO:          gradient_descent() ] Iter: 340000, cost: 0.164517
+[INFO:          gradient_descent() ] Iter: 350000, cost: 0.164268
+[INFO:          gradient_descent() ] Iter: 360000, cost: 0.164046
+[INFO:          gradient_descent() ] Iter: 370000, cost: 0.163847
+[INFO:          gradient_descent() ] Iter: 380000, cost: 0.163669
+[INFO:          gradient_descent() ] Iter: 390000, cost: 0.163510
+[INFO:          gradient_descent() ] Iter: 400000, cost: 0.163367
+[INFO:          gradient_descent() ] Iter: 410000, cost: 0.163240
+[INFO:          gradient_descent() ] Iter: 420000, cost: 0.163125
+[INFO:          gradient_descent() ] Iter: 430000, cost: 0.163023
+[INFO:          gradient_descent() ] Iter: 440000, cost: 0.162931
+[INFO:          gradient_descent() ] Iter: 450000, cost: 0.162849
+[INFO:          gradient_descent() ] Iter: 460000, cost: 0.162776
+[INFO:          gradient_descent() ] Iter: 470000, cost: 0.162710
+[INFO:          gradient_descent() ] Iter: 480000, cost: 0.162651
+[INFO:          gradient_descent() ] Iter: 490000, cost: 0.162598
+[INFO:          gradient_descent() ] Iter: 500000, cost: 0.162551
+[INFO:          gradient_descent() ] Iter: 510000, cost: 0.162508
+[INFO:          gradient_descent() ] Iter: 520000, cost: 0.162470
+[INFO:          gradient_descent() ] Iter: 530000, cost: 0.162436
+[INFO:          gradient_descent() ] Iter: 540000, cost: 0.162406
+[INFO:          gradient_descent() ] Iter: 550000, cost: 0.162378
+[INFO:          gradient_descent() ] Iter: 560000, cost: 0.162354
+[INFO:          gradient_descent() ] Iter: 570000, cost: 0.162332
+[INFO:          gradient_descent() ] Iter: 580000, cost: 0.162312
+[INFO:          gradient_descent() ] Iter: 590000, cost: 0.162295
+[INFO:          gradient_descent() ] Iter: 600000, cost: 0.162279
+[INFO:          gradient_descent() ] Iter: 610000, cost: 0.162265
+[INFO:          gradient_descent() ] Iter: 620000, cost: 0.162252
+[INFO:          gradient_descent() ] Iter: 630000, cost: 0.162241
+[INFO:                  <module>() ] Generating convergence trajectory (cost) in GD-cost-convergence.png...
+[INFO:                  <module>() ] Mean Square Error: 0.324468
+[INFO:                  <module>() ] Generating GD result animation (GD-result-3d.gif)...
+[INFO:                  <module>() ] 
+2. Running Conjugate Gradient Descent (CGD) =====================
+[INFO:                  <module>() ] Generating convergence trajectory (cost) in CGD-cost-convergence.png...
+[INFO:                  <module>() ] Mean Square Error: 0.324285
+[INFO:                  <module>() ] Generating CGD result animation (CGD-result-3d.gif)...
+[INFO:                  <module>() ] 
+3. Comparing Results =====================
+[INFO:                  <module>() ] 
+3.1 By Calculating The Inverse Matrix:
+y = -0.0194 + 1.4929*x1 + 2.4487*x2
+[INFO:                  <module>() ] 
+3.2 By Gradient Descent:
+y = 0.0150 + 1.4642*x1 + 2.4120*x2
+[INFO:                  <module>() ] 
+3.3 By Conjugate Gradient Descent:
+y = -0.0194 + 1.4929*x1 + 2.4487*x2
