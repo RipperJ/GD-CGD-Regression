@@ -24,6 +24,8 @@ This is one part of the course assignment for [HKUST-GZ MICS 6000I Physical Desi
     * Conjugate Gradient Descent (CGD): in [CGD-cost-convergence.png](./CGD-cost-convergence.png)
 * 3-D Convergence Animation:
     * Gradient Descent (GD): in [GD-result-3d.gif](./GD-result-3d.gif)
+    ![](GD-result-3d.gif)
     * Conjugate Gradient Descent (CGD): in [CGD-result-3d.gif](./CGD-result-3d.gif)
+    ![](CGD-result-3d.gif)
 * Intermediate results (3-D figure) during convergence
     * in [result folder](./result/)
