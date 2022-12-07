@@ -22,12 +22,16 @@ This is one part of the course assignment for [HKUST-GZ MICS 6000I Physical Desi
 * Convergence trajectories:
     * Gradient Descent (GD): in [GD-cost-convergence.png](./GD-cost-convergence.png)
     <img src="GD-cost-convergence.png" width="250" height="250"/>
+
     * Conjugate Gradient Descent (CGD): in [CGD-cost-convergence.png](./CGD-cost-convergence.png)
     <img src="CGD-cost-convergence.png" width="250" height="250"/>
+
 * 3-D Convergence Animation:
     * Gradient Descent (GD): in [GD-result-3d.gif](./GD-result-3d.gif)
     <img src="GD-result-3d.gif" width="250" height="250"/>
+
     * Conjugate Gradient Descent (CGD): in [CGD-result-3d.gif](./CGD-result-3d.gif)
     <img src="CGD-result-3d.gif" width="250" height="250"/>
+    
 * Intermediate results (3-D figure) during convergence
     * in [result folder](./result/)
